@@ -23,3 +23,23 @@ Ranking is decided as follows:
 5. If GF are same, the teams should be at the same rank but they should be printed in case-insensitive alphabetic according of the team      names.
 6. More than 2 matches of same teams, should be considered as Invalid Input
 7. A team can't play matches against itself, hence if team names are same for a given match, it should be considered Invalid Input
+
+
+
+
+
+Example:
+
+Consider 5 teams Spain, England, France, Italy and Germany with the following fixtures:
+
+Match 1: Spain vs. England (3-0)
+(Spain gets 2 points, England gets 0)
+
+Match 2: England vs. France (1-1)
+(England gets 1 point, France gets 1)
+
+Match 3: Spain vs. France (0-2)
+(Spain gets 0 points, France gets 2)
+
+
+Since, Italy and Germany are tied for points, goals difference is checked. Both have same, so, Goals For is checked. Since both are same. Germany and Italy share the 4th rank. Since Germany appears alphabetically before Italy, Germany should be printed before Italy.
