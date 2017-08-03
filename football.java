@@ -29,13 +29,13 @@ class Codechef
         n=sc.nextInt();
         String z[]=new String[n];
         System.out.println("\n\n");
-        System.out.println("Enter names of Teams:");                                                                   
+        System.out.println("Enter names of Teams:");
         for(i=0;i<n;i++)
         {
             z[i]=sc.next();
         }
         System.out.println("\n\n");
-        System.out.println("Enter number of Matches:"); 
+        System.out.println("Enter number of Matches:");
         m=sc.nextInt();
         int pt[]=new int[n];
         int gf[]=new int[n];
@@ -45,7 +45,7 @@ class Codechef
         String s[]=new String[n+n];
         String a[][]=new String[m][4];
         System.out.println("\n\n");
-        System.out.println("Enter details of Matches(Team1 Team2 T1goals T2goals)"); 
+        System.out.println("Enter details of Matches(Team1 Team2 T1goals T2goals)");
         for(i=0;i<m;i++)
         {
             for(j=0;j<4;j++)
@@ -207,15 +207,15 @@ class Codechef
                 r[i]=i+1;
         }
         
-         System.out.print("\n\n\n\n\n");
-         System.out.print("\t\t\t"+"Football Points Table"+"\t\t");
-         System.out.print("\n\n");
-
-
-
-
-
-
+        System.out.print("\n\n\n\n\n");
+        System.out.print("\t\t\t"+"Football Points Table"+"\t\t");
+        System.out.print("\n\n");
+        
+        
+        
+        
+        
+        
         System.out.println("Name"+"\t\t"+"Match"+"\t"+"GoalF"+"\t"+"GoalA"+"\t"+"GD"+"\t"+"Points"+"\t"+"Rank");
         
         for(i=0;i<n;i++)
